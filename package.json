@@ -1,0 +1,22 @@
+{
+  "name": "tpc-aios",
+  "version": "0.1.0",
+  "description": "A simplified, open-source cut of TPC-AI — the agent harness behind a multi-tenant product we run in production. Single-user, for reading; not a runnable build.",
+  "license": "MIT",
+  "author": "Chris <chris@accucrazy.com>",
+  "repository": { "type": "git", "url": "https://github.com/ChrisCM7/TPC-AIOS.git" },
+  "homepage": "https://github.com/ChrisCM7/TPC-AIOS#readme",
+  "type": "module",
+  "private": false,
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "better-sqlite3": "^11.0.0",
+    "json5": "^2.2.3",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.0.0"
+  }
+}
